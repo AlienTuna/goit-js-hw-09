@@ -23,3 +23,18 @@ button {
     background-color: rgb(90, 39, 148);
     color: #fff
 }
+button:hover {
+    background-color: rgb(74, 32, 121);
+}
+button:active {
+    background-color: rgb(27, 12, 44);
+}
+button[disabled] {
+    border: 1px dotted #6d6d6d;
+    background-color: #674979;
+    color: rgb(147, 122, 155); 
+}
+input[disabled] {
+    background-color: #daaeda;
+    color: rgb(147, 122, 155); 
+}
